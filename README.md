@@ -27,9 +27,11 @@ The Task Management System is designed to help you manage tasks efficiently. Thi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Aimeana100/task-management-system.git
+   git clone https://github.com/harshmriduhash/task-management
    cd task-management-system
    yarn or npm install
+
+   ```
 
 2. Configure your PostgreSQL database in ormconfig.json.
    Run the application:
@@ -44,7 +46,7 @@ The Task Management System is designed to help you manage tasks efficiently. Thi
 ## Usage
 
 1. Create a task:
-Send a POST request to <http://localhost:3000/tasks> with a JSON body like:
+   Send a POST request to <http://localhost:3000/tasks> with a JSON body like:
 
 ```json
 {
@@ -54,14 +56,14 @@ Send a POST request to <http://localhost:3000/tasks> with a JSON body like:
 ```
 
 2. Update a task:
-Send a PUT request to <http://localhost:3000/tasks/{taskId}>
-with a JSON body containing the updated task details.
+   Send a PUT request to <http://localhost:3000/tasks/{taskId}>
+   with a JSON body containing the updated task details.
 
 3. Get a list of tasks:
-Send a GET request to <http://localhost:3000/tasks>.
+   Send a GET request to <http://localhost:3000/tasks>.
 
 4. Get a task by ID:
-Send a GET request to <http://localhost:3000/tasks/{taskId}>.
+   Send a GET request to <http://localhost:3000/tasks/{taskId}>.
 
 5. Delete a task:
-Send a DELETE request to <http://localhost:3000/tasks/{taskId}>.
+   Send a DELETE request to <http://localhost:3000/tasks/{taskId}>.
